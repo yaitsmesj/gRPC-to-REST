@@ -19,6 +19,7 @@ func main() {
 	s := server.UserServer{}
 	pb.RegisterUserServiceServer(grpcServer, &s)
 
+	log.Println("Starting Server...")
 	if err := grpcServer.Serve(lis); err != nil {
 		log.Fatalf("failed to serve: %s", err)
 	}
