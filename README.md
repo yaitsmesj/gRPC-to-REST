@@ -1,5 +1,5 @@
 
-Note - Work in Progress
+Note - Work in Progress (Currently it works for a specific API, Will be generalised soon)
 
 # gRPC-to-REST
 A library to convert gRPC API calls to REST calls
