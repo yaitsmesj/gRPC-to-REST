@@ -19,4 +19,6 @@ FROM scratch
 
 COPY --from=builder /app/grpc-to-rest /app
 
-CMD [ "/app/grpc-to-rest" ]
+EXPOSE 8080
+
+CMD [ "/app" ]
